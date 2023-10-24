@@ -1,4 +1,4 @@
-
+# Dieses Programm berechnet, wie lange es dauert eine bestimmte Höhe an Schulden zurückzuzahlen.
 schulden = float(input("Wie hoch sind Ihre Schulden: "))
 rückzahlung = float(input("Wie viel wollen sie pro Monat zurück zahlen: "))
 zinsen = float(input("Wie viel Prozent an Zinsen bekommen Sie: "))
