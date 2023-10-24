@@ -1,0 +1,9 @@
+Nettobetrag = input("Geben Sie einen Nettobetrag ein:")
+Nettobetrag = float(Nettobetrag)
+Mehrwertsteuer_Prozent = 0.19
+
+Mehrwertsteuer = Mehrwertsteuer_Prozent * Nettobetrag
+Bruttobetrag = Nettobetrag - Mehrwertsteuer
+
+print("Die Mehrwertsteuer ist:", Mehrwertsteuer)
+print("Der Bruttobetrag ist:", Bruttobetrag)

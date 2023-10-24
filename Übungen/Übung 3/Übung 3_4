@@ -1,0 +1,26 @@
+# Bonus für Mitarbeiter
+
+eingabe = True
+while eingabe:  
+    umsatz = float(input("Wie hoch ist der Umnsatz des Unternehmens: "))
+    try:
+        bestellwert = float(umsatz)
+        eingabe = False
+    except:
+        print("Die Eingabe ist keine numerische Zahl!")
+        print("Bitte geben Sie neue Zahlen ein!")
+
+umsatzgrenze1 = 50000
+umsatzgrenze2 = 100000
+bonusprozent1 = 0.05
+bonusprozent2 = 0.10
+
+if umsatz < umsatzgrenze1:
+    print("Es gibt keinen Bonus, der Umsatz ist zu niedrig!")
+elif umsatzgrenze1 <= umsatz <= umsatzgrenze2:
+    bonus = (umsatz - umsatzgrenze1) * bonusprozent1
+    print(f"Sie erhalten einen Bonus von {bonus} Euro!")
+elif umsatz >= umsatzgrenze2: 
+    bonus1 = (umsatzgrenze2 - umsatzgrenze1) * bonusprozent1
+    bonus2 = (umsatz - umsatzgrenze2) * bonusprozent2
+    print(f"Sie erhalten einen Bonuns von {bonus1+bonus2} Euro")

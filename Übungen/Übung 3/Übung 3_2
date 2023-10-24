@@ -1,0 +1,22 @@
+# Kreditwürdigkeit
+
+eingabe = True
+while eingabe:  
+    einkommen = input("Geben Sie ihr monatliches Einkommen ein: ")
+    ausgaben = input("Geben Sie ihre monatlichen Ausgaben ein: ")
+    try:
+        ausgaben = float(ausgaben)
+        einkommmen = float(einkommen)
+        eingabe = False
+    except:
+        print("Die Eingabe ist keine numerische Zahl!")
+        print("Bitte geben Sie neue Zahlen ein!")
+
+einkommen = float(einkommen)
+einkommen = einkommen / 2
+ausgaben = float(ausgaben)
+
+if einkommen <= ausgaben:
+    print("Sie sind nicht kreditwürdig!")
+else:
+    print("Sie sind kreditwürdig!")

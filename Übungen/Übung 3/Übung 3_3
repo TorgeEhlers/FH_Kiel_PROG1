@@ -1,0 +1,29 @@
+# Rabatte 
+
+eingabe = True
+while eingabe:  
+    bestellwert = float(input("Wie hoch ist der Bestellwert:"))
+    try:
+        bestellwert = float(bestellwert)
+        eingabe = False
+    except:
+        print("Die Eingabe ist keine numerische Zahl!")
+        print("Bitte geben Sie neue Zahlen ein!")
+
+
+if bestellwert < 100:
+    print(f"Bestellwert: {bestellwert} Euro")
+    print("Sie erhlaten keinen Rabatt")
+    print(f"Einen Rabatt gibt es erst ab 100 Euro, wodurch Sie nun bei einem Gesmamtbetrag von {bestellwert} liegen")
+elif 100 < bestellwert < 499:
+    print(f"Bestellwert: {bestellwert} Euro")
+    rabatt = bestellwert * 0.05
+    print(f"Sie haben einen Rabatt von {rabatt}  erhalten")
+    bestellwert = bestellwert * 0.95
+    print(f"Der Gesamtbetrag nach dem Rabatt beträgt {bestellwert}")
+elif bestellwert > 500:
+    print(f"Bestellwert: {bestellwert} Euro")
+    rabatt = bestellwert * 0.10
+    print(f"Sie haben einen Rabatt von {rabatt}  erhalten")
+    bestellwert = bestellwert * 0.90
+    print(f"Der Gesamtbetrag nach dem Rabatt beträgt {bestellwert}")

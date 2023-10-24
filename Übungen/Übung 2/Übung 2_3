@@ -1,0 +1,15 @@
+#Eingabe von Temperatur und Einheit
+temperatur = input("Geben sie ihre Temperatur ein:")
+temperatur = float(temperatur)
+Einheit = input("Geben Sie ihre Einheit der Temperautr ein (Celsius=1, Fahrenheit=2)")
+Einheit = int(Einheit)
+
+# wenn Einheit Fahrenheit ist Fahrenheit -> Celsius
+if Einheit == 2:
+    temperatur = 5/9 * (temperatur - 32 )
+    print("Die Temperatur beträgt", temperatur, "Celsius")
+
+# wenn Einheit Celsius ist Celsius -> Fahrenheit
+else: 
+    temperatur = temperatur * 9/5 +32
+    print("Die Temperatur beträgt", temperatur, "Fahrenheit")

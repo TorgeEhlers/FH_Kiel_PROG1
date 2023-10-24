@@ -1,0 +1,11 @@
+import random 
+
+a = 1
+
+while a < 100:
+    zufallszahl = random.randint(1,20)
+    print(f"{a} + {zufallszahl}")
+    a = a + zufallszahl
+    
+
+print("Ende")

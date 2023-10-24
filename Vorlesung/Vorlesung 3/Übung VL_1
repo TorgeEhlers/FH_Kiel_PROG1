@@ -1,0 +1,13 @@
+# Eingabe
+umsatz = float(input("Wie hoch ist der Umsatz: "))
+kosten = float(input("Wie hoch sind die Kosten: "))
+
+# Verarbeitung
+gewinn = umsatz - kosten
+
+if gewinn > 0:
+    print(f"Gewinnn = {gewinn:.2f} Euro")
+elif gewinn < 0:
+    print(f"Verlust = {gewinn:.2f} Euro")
+else:
+    print("Der Gewinn/Verlust ist neutral")

@@ -1,0 +1,20 @@
+sparbetrag = 2
+betrag = 0
+anzahl_monate = 0
+zielbetrag = 699
+zinsen = 1.5
+
+
+while betrag < zielbetrag:
+    print(f"Monat {anzahl_monate}: Sparbetrag {betrag:8.2f}")
+    betrag += sparbetrag
+    betrag *= 1 + (zinsen/100)
+    anzahl_monate += 1
+
+print(f"Monat {anzahl_monate}: Sparbetrag {betrag:8.2f}")
+
+
+
+
+
+

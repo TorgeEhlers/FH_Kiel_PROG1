@@ -1,0 +1,8 @@
+# Break Even Punkt
+
+a = float(input("Geben Sie die festen Kosten ein: "))
+b = float(input("Geben Sie die variablen Kosten je verkaufter Einheit ein: "))
+c = float(input("Geben Sie den Verkaufspreis je Einheit ein: "))
+
+Bep = (a / (c -b))
+print(f"Der Break-Even-Punkt liegt bei {Bep}")

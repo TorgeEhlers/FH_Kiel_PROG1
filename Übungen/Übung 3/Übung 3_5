@@ -1,0 +1,40 @@
+# Herr Ungerechts Notenvergabe
+
+#Eingabe
+Note = 3
+Augen = 0
+Frisur = 0
+Wetter = 0
+
+#Bedingungen für Note
+if Augen == 1:
+    if Frisur == 1:
+        if Wetter == 0:
+            Note = Note * 1.10
+            print(f"Die Note beträgt: {Note}")
+        else:
+            Note = (Note * 1.10) - 1
+            print(f"Die Note beträgt: {Note}")
+    else:
+        if Wetter == 0:
+            Note = Note * 0.90
+            print(f"Die Note beträgt: {Note}")
+        else:
+            Note = (Note * 0.90) - 1
+            print(f"Die Note beträgt: {Note}")
+else:
+    if Frisur == 1:
+        if Wetter == 0: 
+            Note = Note * 0.90
+            print(f"Die Note beträgt: {Note}")
+        else:
+            Note = (Note * 0.90) - 1
+            print(f"Die Note beträgt: {Note}")
+    else:
+        if Wetter == 0:
+            Note = Note * 1.10
+            print(f"Die Note beträgt: {Note}")
+        else:
+            Note = (Note * 1.10) - 1
+            print(f"Die Note beträgt: {Note}")
+

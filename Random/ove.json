@@ -1,0 +1,49 @@
+[
+    {
+        "id": 3,
+        "name": "1. Frauen",
+        "idtable": 107651,
+        "updatetime": "24.10.2022, 19:29:23",
+        "updateby": "admin",
+        "linktoinfo": "test",
+        "idspielplan": 1021641
+    },
+    {
+        "id": 4,
+        "name": "1. Männer",
+        "idtable": 123,
+        "updatetime": null,
+        "updateby": null,
+        "linktoinfo": null,
+        "idspielplan": null
+    }
+]
+[
+    {
+        "id": 2,
+        "name": "Hallo",
+        "idtable": 187,
+        "updatetime": null,
+        "updateby": "ich bin",
+        "linktoinfo": "JSON",
+        "idspielplan": null
+    },
+    {
+        "id": 3,
+        "name": "1. Frauen",
+        "idtable": 107651,
+        "updatetime": "24.10.2022, 19:29:23",
+        "updateby": "admin",
+        "linktoinfo": "test",
+        "idspielplan": 1021641
+    },
+    {
+        "id": 4,
+        "name": "1. Männer",
+        "idtable": 123,
+        "updatetime": null,
+        "updateby": null,
+        "linktoinfo": null,
+        "idspielplan": null
+    }
+]

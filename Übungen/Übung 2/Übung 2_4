@@ -1,0 +1,17 @@
+#Eingabe der Werte
+Anfangskapital = input("Geben Sie ihr Anfangskapital ein:")
+Anfangskapital = float(Anfangskapital)
+
+Zinssatz =  input("Geben Sie ihren Zinsatz ein:")
+Zinssatz = float (Zinssatz)
+
+Laufzeit =input("Geben Sie ihre laufzeit in Jahren ein:")
+Laufzeit = int(Laufzeit)
+
+# Nebenrechnungen und endgültige Rechnungen
+Rechnung1 = 1 + Zinssatz / 100
+Rechnung2 = Rechnung1 ** Laufzeit
+Endkapital = Anfangskapital * Rechnung2
+
+#Ergebniss
+print("Ihr Endkapital nach:", Laufzeit, "und einem Zinssatz von:", Zinssatz, "beträgt", Endkapital, "€")

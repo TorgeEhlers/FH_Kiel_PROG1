@@ -1,0 +1,9 @@
+x = 5
+
+def mache_schoen(text, verzierer="*"):
+    x = 7
+    return f"{verzierer} {text} {verzierer}"
+
+schoener_text = mache_schoen("Muha", "#+#+#")
+print(schoener_text)
+print(x)

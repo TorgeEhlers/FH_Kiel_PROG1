@@ -1,0 +1,21 @@
+# a)
+print ("Speichere in c:\new folder")
+
+# b)
+a = 1
+b = 3
+print ("a+b")
+
+# c)
+x = 11
+x = x + 1
+print (x)
+
+# d)
+y = 5
+y + 1
+print(y)
+
+# e)
+x = input("Geben Sie eine Zahl ein:")
+print(x / 2)
