@@ -1,10 +1,16 @@
+# Schuldenrechner
+
+# Eingabe der Werte
 
 schulden = float(input("Wie hoch sind Ihre Schulden: "))
 rückzahlung = float(input("Wie viel wollen sie pro Monat zurück zahlen: "))
 zinsen = float(input("Wie viel Prozent an Zinsen bekommen Sie: "))
 monat = 0
+
+# Umrechnung von Prozent in Dezimalzahl
 zinsen = zinsen / 100 + 1
 
+#Berechnung
 
 while schulden > 0:
     schulden = schulden - rückzahlung
@@ -16,6 +22,8 @@ while schulden > 0:
     else:
         print(f"Monat {monat}: {schulden:10.2f}")
     
+# Ausgabe
+
 print(f"Das Unternehmen benötigt {monat} Monate, um schuldenfrei zu sein.")
 
 
