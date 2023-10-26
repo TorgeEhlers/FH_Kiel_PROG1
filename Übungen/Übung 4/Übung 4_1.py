@@ -7,4 +7,4 @@ n = int(input("Wie häufig soll das Wort angezeigt werden:"))
 # Schleife zum ausgeben
 while n > 0:
     print(wort)
-    n = n - 1
+    n -= 1
