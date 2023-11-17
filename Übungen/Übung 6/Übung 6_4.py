@@ -3,8 +3,8 @@ satz = []
 def satz_analyse(text):
     satz = text.split(" ")
     print(f"Der Satz hat {len(satz)} Wörter")
-    for i in satz:
-        
+
+
 
 
 
