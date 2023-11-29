@@ -31,7 +31,7 @@ def bmi_auswertung(bmi):
         print("Sie haben Adipositas Grad 1!")
     elif 35 < bmi < 39.9:
         print("Sie haben Adipositas Grad 2!")
-    else:
+    elif bmi > 40:
         print("Sie haben Adipositas Grad 3!")
 
 # Hauptfunktion
